@@ -20,8 +20,8 @@ import {
 export default function Header(){
     return (
         <HeaderComponent>
-            <Logo href = "#">
-                <Image
+            <Logo href = {`/index`}>
+                <Image 
                     src = {"/img/logo.svg"}
                     alt = {"logo"}
                     width = {130}
@@ -32,7 +32,7 @@ export default function Header(){
                 <Left>
                     <Ul>
                         <Li>
-                            <OesteLink href = "#">Conferencia Oeste</OesteLink>
+                            <OesteLink href = "/oeste">Conferencia Oeste</OesteLink>
                         </Li>
                         <Li>
                             <LesteLink href = "#">Conferencia Leste</LesteLink>
@@ -66,7 +66,7 @@ export default function Header(){
                             height = {38}
                         />
                     </Usuario>
-                    <Link href = "#">USER</Link>
+                    <Link href = {`/login`}>USER</Link>
                 </User>
                 <Busca>
                     <Image

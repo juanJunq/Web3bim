@@ -90,6 +90,3 @@ export const BodyComponent = styled.section`
     font-family: "Open Sans";
     font-weight: bolder;
 `
-export const Linha = styled.hr`
-    border: 1px solid rgb(255, 0, 0);
-`
