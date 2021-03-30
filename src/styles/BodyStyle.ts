@@ -22,7 +22,7 @@ export const News = styled.div`
 `
 export const Background = styled.div`
     padding: 0;
-    background-image: url(/img/dpoy.svg);
+    background-image: url("/img/dpoy.svg");
     background-repeat: no-repeat;
     height: 830px;
     width: 459px;
