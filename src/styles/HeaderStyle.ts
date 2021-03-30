@@ -41,7 +41,7 @@ export const Ul = styled.ul`
 export const Li = styled.li`
     align-items: flex-end;
     display: flex;
-    margin: 10px
+    margin: 10px;
 `
 export const OesteLink = styled.a`
     color: red;
