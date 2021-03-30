@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
 export const LoginComponent = styled.div`
-    background-image: url(/img/fundo_OUT.png);
+    background-image: url("/img/fundo_OUT.png");
     width: 1440px;
     height: 919px;
 ` 
@@ -54,7 +54,7 @@ export const Button = styled.button`
 `
 export const Text = styled.div`
     margin-left: 15px;
-    margin-bottom: 10px
+    margin-bottom: 10px;
 `
 export const H1 = styled.h1`
     font-size: small;
