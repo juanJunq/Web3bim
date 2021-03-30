@@ -20,7 +20,7 @@ import {
 export default function Header(){
     return (
         <HeaderComponent>
-            <Logo href = {`/index`}>
+            <Logo href = {`/`}>
                 <Image 
                     src = {"/img/logo.svg"}
                     alt = {"logo"}
